@@ -8,5 +8,5 @@ resource "aws_instance" "one" {
   tags = { 
     Name = "N.virginia-server" 
   }
-key name = "sagar"
+key_name = "sagar"
 }
