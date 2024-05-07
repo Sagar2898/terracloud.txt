@@ -7,5 +7,6 @@ resource "aws_instance" "one" {
   instance_type = "t2.micro" 
   tags = { 
     Name = "N.virginia-server" 
-  } 
+  }
+key name = "sagar"
 }
